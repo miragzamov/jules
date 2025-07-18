@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Details</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Blog</h1>
+    </header>
+
+    <main id="post-container">
+        <a href="index.html" class="back-button">Back to Posts</a>
+    </main>
+
+    <div id="comments-container">
+        <h3>Comments</h3>
+        <ul id="comments-list"></ul>
+        <form id="comment-form">
+            <input type="text" id="comment-user" placeholder="Your name" required>
+            <textarea id="comment-text" placeholder="Your comment" required></textarea>
+            <button type="submit">Add Comment</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 My Blog</p>
+    </footer>
+
+    <script src="post.js"></script>
+</body>
+</html>
